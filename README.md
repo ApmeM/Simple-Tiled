@@ -1,4 +1,4 @@
-# Simple RSS
+# Simple Tiled
 
 ## Introduction
 
@@ -15,7 +15,7 @@ To create map fill necessary fields in `TmxMap` object and call `TiledHelper.Wri
 
 To read existing map file you need to get stream with the data and call `TiledHelper.Read`
 
-    TmxMap rss = TiledHelper.Read(File.OpenRead("./result.tmx"));
+    TmxMap map = TiledHelper.Read(File.OpenRead("./result.tmx"));
 
 
 More detailed example can be found in [Beasts and bumpkins](https://github.com/ApmeM/BeastsAndBumpkinsParser/blob/main/src/files/map/MAPFile.cs) repository.
